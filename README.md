@@ -37,3 +37,5 @@ project/
     └── script.js
 ```
 
+## Ссылка на репозиторий 
+https://github.com/lina06z/posmotri-v-okno-ad.git
