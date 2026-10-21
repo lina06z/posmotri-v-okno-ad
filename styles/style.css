@@ -87,3 +87,88 @@ ol {
   height: 298px;
   overflow-y: auto;
 }
+
+/* Видео */
+
+.result__video-container {
+  width: 100%;
+  height: 386px;
+  margin-bottom: 16px;
+}
+
+.result__video {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+/* Карточки видео */
+
+.content__list {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.content__card-link {
+  display: block;
+  color: inherit;
+  text-decoration: none;
+}
+
+.content__video-card {
+  display: flex;
+  align-items: flex-start;
+  gap: 6px;
+}
+
+.content__video-card-description-container {
+  flex-grow: 1;
+  min-width: 0;
+}
+
+.content__video-card-thumbnail {
+  width: 194px;
+  height: 103px;
+  flex-shrink: 0;
+  object-fit: cover;
+  object-position: center;
+}
+
+/* Главный заголовок */
+
+.title {
+  font-family: Oswald, sans-serif;
+  font-size: 116px;
+  font-weight: 700;
+  line-height: 0.9;
+  text-transform: uppercase;
+}
+
+.content__accent {
+  color: #545050;
+}
+
+/* Текст карточек */
+
+.content__video-card-title {
+  overflow: hidden;
+  font-family: Oswald, sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 1;
+  text-overflow: ellipsis;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+.content__video-card-description {
+  display: -webkit-box;
+  overflow: hidden;
+  font-size: 18px;
+  line-height: 0.9;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
